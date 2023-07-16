@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    cursor: pointer;
+}
+.navbar img{
+    width: 130px;
+    height: 65px;
+    margin-left: 5%;
+    mix-blend-mode: multiply;
+}
+.navbar li{
+    list-style: none;
+    padding: 14px;
+    padding-top: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+    color: rgb(43, 42, 42);
+    font-weight: 300;
+}
+.navbar li a span{
+   color: rgb(255, 196, 0) ;
+
+}
+.navbar li a span i{
+    padding-right: 8px;
+ 
+ }
+ .smlogo{
+    position: absolute;
+    top: 2px;
+    left: 26%;
+    padding-left: 9px;
+    padding-top: 5px;
+    width: 30px;
+    height: 15px;
+    font-size: x-small;
+    border: 1px solid rgb(224, 208, 208);
+    background-color: rgb(233, 30, 97);
+    color: white;
+    border-radius: 20px 20px 20px ;
+ }
+.premium{
+    border: 2px solid rgb(255, 196, 0);
+    height: 22px;
+   margin-top: 18px;
+   padding: 5px;
+   border-radius: 5px;
+   margin-left: 38%;
+}
+.premium p{
+     color:  rgb(255, 196, 0);
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+}
+.premium:hover{
+background-color: rgb(255, 196, 0);
+}
+.premium p:hover{
+    color: white;
+}
+
+.container{
+    background-color: rgb(240, 244, 245);
+    height: 780px;
+    
+}
+.mainform{
+    border: 2px solid #efefee;
+    width: 500px;
+    height: 720px;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    background-color: white;
+    border-radius: 3px;
+}
+.mainform img{
+    width: 150px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 170px;
+    mix-blend-mode: multiply;
+    
+}
+.text input{
+    width: 400px;
+    padding: 15px;
+    margin-top: 5%;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(211, 210, 210);
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+
+}
+.password input{
+    width: 400px;
+    padding: 15px;
+    margin-top: 6%;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(211, 210, 210);
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+
+}
+.btn input{
+    width: 440px;
+    padding: 15px;
+    margin-top: 6%;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(211, 210, 210);
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+    background-color: rgb(85, 85, 100);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+.btn input:hover{
+    background-color: rgb(102, 102, 102);
+}
+.forgotpss{
+    display: flex;
+    padding: 10px;
+    margin-top: 4%;
+    margin-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(90, 90, 90);   
+}
+.forgotpss p a{
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+}
+.forgotpss span a{
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+}
+.forgotpss span {
+    margin-left: 45%;
+    font-size: 18px;
+}
+
+.anothertext {
+    margin-top: 4%;
+    margin-left: 33%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(172, 170, 170);
+    
+}
+.icons{
+    padding: 15px;
+    margin-left:30% ;
+    margin-top: 4%;
+
+}
+.icons i{
+    padding-right: 10px;
+    color: rgb(172, 170, 170);
+}
+.paratext{
+    margin-top: 4.5%;
+    margin-left: 50px;
+    color: rgb(172, 170, 170);
+
+}
+.paratext p{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+}
+.p{
+    padding-left: 25px;
+}
+.p a{
+    color: rgb(172, 170, 170);
+}
+.foot{
+    height: 10px;
+    padding: 25px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+}
+.sp{
+    margin-left: 8%;
+    margin-right: 20px;
+    color: rgb(172, 170, 170);
+}
+.foot span{
+    word-spacing: 2px;
+    color: rgb(172, 170, 170);
+}
+.foot p {
+word-spacing: 15px;
+font-weight: lighter;
+}
+.state{
+    position: absolute;
+    top: 105%;
+    left: 87%;
+    
+}
+.state img{
+    width: 30px;
+    height: 22px;
+    
+}
